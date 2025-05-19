@@ -34,5 +34,5 @@ while game:
         x1 = x1-10 
     if keys_pressed[K_d] and x1< 700-100: 
         x1 = x1+10 
-    display.update(//) 
+    display.update() 
     clock.tick(60)
