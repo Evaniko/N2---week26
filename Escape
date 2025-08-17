@@ -17,7 +17,7 @@ while game:
     for e in event.get(): 
         if e.type == QUIT: 
             game = False 
-    keys_pressed = key.get_pressed() 
+    keys_pressed = key.get_pressed(//) 
     if keys_pressed[K_UP] and y2 > 0: 
         y2 = y2-10 
     if keys_pressed[K_DOWN] and y2 < 500-100: 
