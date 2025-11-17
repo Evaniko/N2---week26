@@ -8,7 +8,7 @@ game = True
 x1=50 
 y1=50 
 x2=170 
-y2=60 //
+y2=60 
 clock = time.Clock() 
 while game: 
     window.blit(background,(0,0)) 
