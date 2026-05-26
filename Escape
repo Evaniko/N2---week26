@@ -9,7 +9,7 @@ x1=50
 y1=50 
 x2=170 
 y2=60 
-clock = time.Clock(//) 
+clock = time.Clock() 
 while game: 
     window.blit(background,(0,0)) 
     window.blit(sprite1,(x1,y1)) 
